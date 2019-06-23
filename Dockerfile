@@ -1,5 +1,5 @@
 # parent Docker
-FROM biocontainers/proteowizard
+FROM biocontainers/proteowizard:v3_0_9740_cv2
 
 # adding some basics (check if they are already there)
 RUN apt-get update
